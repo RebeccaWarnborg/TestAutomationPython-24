@@ -18,7 +18,10 @@
 #Betala = Jacka - Rea # Vad man ska betala.
 #print(Betala,"kr.") 
 
-Pris = 2000 # Jackans pris.
-Rea_procent = 50 # Rean på jackan.
-slut_pris = Pris * Rea_procent / 100 # Vad man ska betala.
-print(slut_pris) 
+#Pris = 2000 # Jackans pris.
+#Rea_procent = 50 # Rean på jackan.
+#slut_pris = Pris * Rea_procent / 100 # Vad man ska betala.
+#print(slut_pris) 
+
+Jacka = 2000
+Procent = int(input("Skriv en procentsats"))
