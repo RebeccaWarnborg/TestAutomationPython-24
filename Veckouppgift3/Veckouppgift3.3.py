@@ -16,5 +16,13 @@ for movie in movies:
 print("Filmen Fellowship of the ring har plats:",movies.index("Fellowship of the ring"))
 
 # Ta reda på hur lång listan är
+length = len(movies)
+print("Längden på listan är:",length)
 
+# Vänd listan baklänges
+movies.reverse()
+print(movies)
 
+#Sortera listan stigande i bokstavsordning
+movies.sort()
+print(movies)
