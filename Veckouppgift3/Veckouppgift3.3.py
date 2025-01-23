@@ -1,4 +1,4 @@
-movies = ["The nun", "The conjuring", "Anabelle", "The Exorcism"]
+movies = ["The nun", "The conjuring", "Anabelle", "The exorcism"]
 
 # Lägg till "Fellowship of the ring" sist i listan.
 movies.append("Fellowship of the ring")
