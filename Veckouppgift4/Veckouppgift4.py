@@ -34,7 +34,7 @@ def fun3(a):
 a += 2
 #a = a + 2
 print(a)
-⁠7
+⁠
 
 print("1f")
 def foo(i):
@@ -45,7 +45,7 @@ def goo(x, y):
 
 a = goo(foo, 3)
 print(a)
-⁠18
+⁠
 
 print("1g")
 
