@@ -48,7 +48,8 @@ print(a)
 ⁠18
 
 print("1g")
-#Funktionen "isinstance" kan kontrollera en variabels datatyp. Vad gör funktionen is_number? Går det att förbättra koden?
+
+# Funktionen "isinstance" kan kontrollera en variabels datatyp. Vad gör funktionen is_number? Går det att förbättra koden?
 def is_number(x):
     if isinstance(x, int):
         return True
@@ -71,9 +72,10 @@ lista = average_words(["sup", "how's", "it", "going", "reflecting", "on", "progr
 print(lista)
 
 print("1i")
-En uppgift i tre delar:Lista ut vad som är funktionens syfte, baserad på namn och sammanhang.
-Lista ut vad som ska vara det förväntade resultatet för de tre testlistorna.
-Rätta felen, så funktionen gör det den ska.
+
+# En uppgift i tre delar:Lista ut vad som är funktionens syfte, baserad på namn och sammanhang.
+# Lista ut vad som ska vara det förväntade resultatet för de tre testlistorna.
+# Rätta felen, så funktionen gör det den ska.
 def find_min(numbers):
     counter = None
     for item in numbers:
