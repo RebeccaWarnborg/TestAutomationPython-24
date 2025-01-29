@@ -15,5 +15,5 @@ print(last([10, 34, 67, 101]))  # Förväntat resultat: 101
 
 def cut_edges(lista):
     return lista[1:-1]  # Returnerar listan utan första och sista elementet
-print(cut_edges([1, 4]))  # Förväntat resultat: [2, 3]
+print(cut_edges([1, 2, 3, 4]))  # Förväntat resultat: [2, 3]
 print(cut_edges([10, 20, 30, 40, 50]))  # Förväntat resultat: [20, 30, 40]
