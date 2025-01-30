@@ -6,6 +6,8 @@
 # Färg kan vara: ruter, hjärter, spader eller klöver. Valör kan vara tvåa till ess, för enkelhets skull använder vi talen 2 till 14.
 # Exempel på ett kort: ["hjärter", 12]
 # Bygg en funktion som jämför två spelkort och kan tala om ifall de har samma valör.
+# Bygg första versionen av poker_hand(cards). 
+# Med hjälp av de andra funktionerna ska den ta reda på om man har ett par, dvs det finns två kort med samma valör.
 
 import random
 
