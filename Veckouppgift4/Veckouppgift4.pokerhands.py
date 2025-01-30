@@ -5,17 +5,47 @@
 # 1 Bygg en funktion som slumpar ett spelkort. Den ska returnera en lista med två element: färg och valör. 
 # Färg kan vara: ruter, hjärter, spader eller klöver. Valör kan vara tvåa till ess, för enkelhets skull använder vi talen 2 till 14.
 # Exempel på ett kort: ["hjärter", 12]
+# Bygg en funktion som jämför två spelkort och kan tala om ifall de har samma valör.
 
-import random  # Steg 1: Importera modulen random
+import random
 
 def draw_card():
     # Slumpar ett spelkort och returnerar det som en lista med [färg, valör].
-    
-    suits = ["ruter", "hjärter", "spader", "klöver"]  # Steg 2: Lista med färger
-    value = random.randint(2, 14)  # Steg 3: Slumpa en valör mellan 2 och 14
-    suit = random.choice(suits)  # Steg 4: Slumpa en färg
-    
-    return [suit, value]  # Steg 5: Returnera kortet som en lista
+    suits = ["ruter", "hjärter", "spader", "klöver"]
+    value = random.randint(2, 14)
+    suit = random.choice(suits)
+    return [suit, value]
 
-# Steg 6: Testa funktionen genom att skriva ut ett kort
-print(draw_card())  
+def same_value(card1, card2):
+    # Jämför två spelkort och returnerar True om de har samma valör.
+    return card1[1] == card2[1]
+
+def poker_hand(cards):
+    # Kollar om en pokerhand innehåller ett par och skriver ut resultatet.
+    
+    value_counts = {}  # Dictionary för att räkna valörer
+    
+    # Gå igenom alla kort i handen
+    for card in cards:
+        value = card[1]  # Hämta valören
+        if value in value_counts:
+            value_counts[value] += 1  # Öka räknaren om valören redan finns
+        else:
+            value_counts[value] = 1  # Lägg till ny valör
+    
+    # Kolla om någon valör förekommer exakt två gånger (ett par)
+    for value, count in value_counts.items():
+        if count == 2:
+            print(f"Du fick ett par med valören: {value}")
+            return  # Avsluta funktionen efter att vi hittat ett par
+
+    print("Inget par hittades.")  # Om inget par finns
+
+# Skapa en pokerhand med 5 slumpade kort
+hand = [draw_card() for _ in range(5)]  
+
+# Skriv ut handen
+print("Din hand:", hand)
+
+# Analysera handen
+poker_hand(hand)
