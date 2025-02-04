@@ -11,7 +11,6 @@ def test_empty_list():
     assert actual == expected
     
 def test_number_list():
-    assert sum_list([5]) == 5
     expected = 5
-    actual = sum_list()
+    actual = sum_list([5])
     assert actual == expected 
