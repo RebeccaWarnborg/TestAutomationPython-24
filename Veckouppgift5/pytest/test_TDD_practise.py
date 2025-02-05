@@ -5,7 +5,7 @@
    # return degree * 9 / 5 + 32
 
 import pytest
-from Veckouppgift5.main_test_function import c_to_f
+from main_test_function import c_to_f
 
 def test_c_to_f():
     test_cases = [
