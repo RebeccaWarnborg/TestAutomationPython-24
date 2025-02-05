@@ -9,7 +9,7 @@ from main_test_function import c_to_f
 
 def test_c_to_f():
     test_cases = [
-        (-273.15, -459.66999999999996),    # Gränsvärde, -273.15 C = -459.67 F
+        (-273.15, -459.66999999999996),    # Gränsvärde, -273.15 C =-459.66999999999996 F
         (0, 32),               # 0 C = 32 F
         (100, 212),            # 100 C = 212 F
         (-40, -40),            # -40 C = -40 F (specialfall)
