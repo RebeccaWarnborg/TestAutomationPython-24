@@ -14,11 +14,17 @@ from main_test_function import count_words
 
 def test_count_words():
     test_cases = [
-        ("HELLO WORLD", "test"),
-        ("hello world", "test"),
-        ("Hello World!", "test"),
-        ("H3ll0 w0rld", "test") ,
+        ("HELLO WORLD"),
+        ("hello world"),
+        ("Hello World!"),
+        ("H3ll0 w0rld") ,
     ]
-    for count_words in test_cases:
-        actual = count_words(test_cases)
+    #for count_words in test_cases:
+     #   actual = count_words(test_cases)
+      #  assert actual == expected
+    for sentence in test_cases:
+        expected = 2
+        actual = count_words(sentence)
         assert actual == expected
+
+# Ej godkänd ännu. 
