@@ -5,10 +5,11 @@ def c_to_f(degree):
     return degree * 9 / 5 + 32
     
 def count_words(sentence):
-    if sentence.isalpha():  # isalpha() kollar om hela strängen bara innehåller bokstäver
+    if sentence:  # isalpha() kollar om hela strängen bara innehåller bokstäver
         return len(sentence.split())  # Dela upp strängen i ord och räkna dem
     else:
         return None  # Returnera None om strängen inte bara innehåller bokstäver
     
 def is_sorted_ascending(numbers):
     return numbers == sorted(numbers)
+

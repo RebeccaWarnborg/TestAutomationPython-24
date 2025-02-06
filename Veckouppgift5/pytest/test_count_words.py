@@ -22,9 +22,7 @@ def test_count_words():
     #for count_words in test_cases:
      #   actual = count_words(test_cases)
       #  assert actual == expected
-    for sentence in test_cases:
+    for words in test_cases:
         expected = 2
-        actual = count_words(sentence)
+        actual = count_words(words)
         assert actual == expected
-
-# Ej godkänd ännu. 
