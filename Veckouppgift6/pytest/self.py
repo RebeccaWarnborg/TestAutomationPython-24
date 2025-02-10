@@ -17,6 +17,11 @@ class Rooster(Animal):
         super().make_noise()
         print("Pip!")
 
+class Fish(Animal):
+    def make_noise(self):
+        super().make_noise()
+        print("Blubb!")
+
 def sound_off(animal): 
     for a in animal:
         a.make_noise() 
@@ -25,4 +30,5 @@ def sound_off(animal):
 c = Cat()
 d = Dog()
 h = Rooster()
-sound_off([c, d, h])
+f = Fish()
+sound_off([c, d, h, f])
