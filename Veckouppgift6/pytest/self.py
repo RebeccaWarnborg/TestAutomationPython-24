@@ -17,9 +17,9 @@ class Rooster(Animal):
         super().make_noise()
         print("Pip!")
 
-def sound_off(animal): # lade in for loopen här i stället
+def sound_off(animal): 
     for a in animal:
-        a.make_noise() # de här blir som    c.make_noise osv
+        a.make_noise() 
 
 
 c = Cat()
