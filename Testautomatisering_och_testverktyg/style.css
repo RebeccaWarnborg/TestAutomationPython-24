@@ -12,6 +12,6 @@
     margin-bottom: 0px;
 }
 
-ul {
+ul, ol, p {
     margin-top: 4px;
 }
