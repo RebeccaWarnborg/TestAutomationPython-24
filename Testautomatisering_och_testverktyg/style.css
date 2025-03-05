@@ -8,7 +8,10 @@
 
 }
 
-.headline
-{
-    margin-bottom: 1px;
+.h4-rubrik {
+    margin-bottom: 0px;
+}
+
+ul {
+    margin-top: 4px;
 }
