@@ -4,8 +4,8 @@ Som användare vill jag via hemsidan https://lejonmanen.github.io/agile-helper/ 
 så jag och teamet kan utvädera och avsluta sprinten.
     
 Testscenario:
-* Navigera till hemsidan och trycka på följande knappar:
-Last --> End the sprint by evaluating your work in sprint retrospective.
+* Navigera till hemsidan och trycka på följande knappen "last".
+* Klicka sedan på knappen "End the sprint by evaluating your work in sprint retrospective".
 * Textruta med titel "Sprint retrospective" ska komma upp med information och knappen "The sprint is complete".
 * Tryck på knappen "The sprint is complete" och du hamnar på startsidan för Agile helper.
 
