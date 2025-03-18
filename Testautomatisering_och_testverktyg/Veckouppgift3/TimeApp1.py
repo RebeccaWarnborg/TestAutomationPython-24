@@ -15,12 +15,14 @@ Acceptanskriterier:
 Testscenarier:
 [T1]
 1. Kontrollera att knappen "Add timer" finns på skärmen.
-2. Kontrollera att en timer visas på skärmen när man trycker på knappen "Add timer".
-3. Tryck på knappen som simulerar en papperskorg och kontrollera att timer'n försvinner.
+2. Tryck på knappen "Add timer".
+3. Kontrollera att en timer visas på skärmen.
+4. Tryck på knappen som simulerar en papperskorg och kontrollera att timer'n försvinner.
 
 [T2]
 1. Kontrollera att knappen "Add note" finns på skärmen.
-2. Kontrollera att en tom ruta för textinmatning visas på skärmen när man trycker på knappen "Add note".
-3. Tryck på knappen som simulerar en papperskorg och kontrollera att rutan anteckningen försvinner.
+2. Tryck på knappen "Add note". 
+3. Kontrollera att en tom ruta för textinmatning visas på skärmen.
+4. Tryck på knappen som simulerar en papperskorg och kontrollera att rutan anteckningen försvinner.
 
 """

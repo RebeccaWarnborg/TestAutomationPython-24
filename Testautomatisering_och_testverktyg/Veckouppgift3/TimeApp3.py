@@ -2,7 +2,7 @@
 Test Time App
 
 User stories:"
-Som en användare vill jag kunna ändra tidsinställningarna på timer'n så den passar mina önskemål.
+[U1] Som en användare vill jag kunna ändra tidsinställningarna på timer'n så den passar mina önskemål.
 
 Acceptanskriterier:
 [A1] Redigera tid för timer'n.
