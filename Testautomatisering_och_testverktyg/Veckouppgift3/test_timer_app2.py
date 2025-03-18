@@ -9,8 +9,8 @@ Acceptanskriterier:
 
 Testscenarier:
 [T1]
-1. Kontrollera att knappen "Add timer" finns på skärmen.
-2. Kontrollera att knappen "Add note" finns på skärmen.
+1. Kontrollera att knappen "Add timer" visas på skärmen.
+2. Kontrollera att knappen "Add note" visas på skärmen.
 3. Tryck på knapparna "Add timer" och "Add note".
 4. Kontrollera att en ikon som simulerar en pil visas på skärmen.
 5. Tryck på ikonen som simulerar en pil.

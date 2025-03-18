@@ -9,10 +9,10 @@ Acceptanskriterier:
 
 Testscenarier:
 [T1] 
-1. Kontrollera att knappen "Add timer" finns på skärmen.
+1. Kontrollera att knappen "Add timer" visas på skärmen.
 2. Tryck på knapparna "Add timer".
-3. Kontrollera att en timer finns på skärmen.
-4. Kontrollera att en ikon som simulerar ett kugghjul finns på skärmen.
+3. Kontrollera att en timer visas på skärmen.
+4. Kontrollera att en ikon som simulerar ett kugghjul visas på skärmen.
 5. Tryck på ikonen som simulerar ett kugghjul.
 6. Kontrollera att en ruta med alternativ för att ändra tid på timer'n syns.
 7. Kontrollera att ikonen "Counting down" syns.

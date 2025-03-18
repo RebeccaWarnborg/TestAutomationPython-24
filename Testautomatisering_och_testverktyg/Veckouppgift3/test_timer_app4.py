@@ -11,14 +11,14 @@ Acceptanskriterier:
 
 Testscenarier:
 [T1] 
-1. Kontrollera att knappen "Add timer" finns på skärmen.
+1. Kontrollera att knappen "Add timer" visas på skärmen.
 2. Tryck på knappen "Add timer".
 3. Kontrollera att en timer visas på skärmen.
 4. Tryck på knappen "Start".
 5. Kontrollera att timer'n räknar ner.
 
 [T2]
-1. Kontrollera att knappen "Add timer" finns på skärmen.
+1. Kontrollera att knappen "Add timer" visas på skärmen.
 2. Tryck på knappen "Add timer".
 3. Kontrollera att en timer visas på skärmen.
 4. Tryck på knappen "Start".
