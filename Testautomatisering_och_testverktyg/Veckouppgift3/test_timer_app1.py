@@ -80,7 +80,7 @@ def test_add_and_remove_note():
         delete_button = note_widget.locator("div.icon.close")
         delete_button.click()
 
-        # kontrollera att anteckningen försvunnit
+        # Kontrollera att anteckningen försvunnit
         expect(note_widget).not_to_be_visible()
 
         browser.close()
